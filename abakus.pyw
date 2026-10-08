@@ -6,7 +6,7 @@ Server robi dve veci: podava abakus.html a nacitava kurzy CNB (/api/kurzy)."""
 import json, os, sys, threading, time, urllib.request, webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-VERZIA = "1.0"
+VERZIA = "1.2"
 PORT = 8770
 ADRESA = "http://127.0.0.1:%d/" % PORT
 TU = os.path.dirname(os.path.abspath(__file__))
